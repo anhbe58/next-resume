@@ -14,8 +14,24 @@ import { WorkExperience } from "../features/work-experience/WorkExperience";
 import { config } from "@src/data/config";
 
 export const metadata: Metadata = {
-  title: "Next Resume",
-};
+    metadataBase: new URL("https://cv.lyhoanganh.site/"),
+    title: {
+        default: "Ly Hoang Anh",
+        template: 'Resume - Ly Hoang Anh',
+    },
+    description: 'Ly Hoang Anh Resume',
+    robots: {
+        index: false,
+        follow: false,
+        googleBot: {
+        index: false,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+        },
+    },
+}
 
 export default function Page() {
   return (
