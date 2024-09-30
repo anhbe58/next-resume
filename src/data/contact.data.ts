@@ -29,24 +29,24 @@ export const contactData: ContactType[] = [
   {
     type: "email",
     icon: faSquareEnvelope,
-    value: "your_email_@gmail.com",
+    value: "lyhoanganh.hcm05@gmail.com",
   },
   {
     type: "phone",
     icon: faSquarePhone,
-    value: "+1 234 567 890",
+    value: "+84963251710",
   },
   {
     type: "link",
     icon: faSquareGithub,
-    value: "github.com/rvieceli",
-    href: "https://github.com/rvieceli",
+    value: "github.com/AnhGeek",
+    href: "https://github.com/AnhGeek",
   },
   {
     type: "link",
     icon: faLinkedin,
-    value: "linkedin.com/in/rafael-vieceli",
-    href: "https://www.linkedin.com/in/rafael-vieceli/",
+    value: "linkedin.com/in/anhlh16",
+    href: "https://www.linkedin.com/in/anhlh16/",
   },
   // {
   //   type: "text",

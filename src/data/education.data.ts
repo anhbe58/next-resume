@@ -19,13 +19,13 @@ export interface Education {
 
 export const educationData: Education[] = [
   {
-    degree: "Bachelor of Technology Management",
+    degree: "Bachelor of Industrial Electrical Engineering",
     school: {
-      name: "FAEC INESUL, Brazil",
+      name: "University of Technology and Education, Viet Nam",
     },
     period: {
-      start: "2007",
-      end: "2019",
+      start: "2012",
+      end: "2016",
     },
     // details: [
     //   {

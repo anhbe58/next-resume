@@ -6,11 +6,11 @@ interface LabelValue {
 export const personalDetailsData: LabelValue[] = [
   {
     label: "Nationality",
-    value: "Brazilian, Italian",
+    value: "Vietnamese",
   },
   {
     label: "Location",
-    value: "Ivrea, Italy",
+    value: "Go Vap, Ho Chi Minh",
   },
   // {
   //   label: "Languages",

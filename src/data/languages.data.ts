@@ -5,7 +5,7 @@ interface Language {
 
 export const languagesData: Language[] = [
   {
-    language: "Portuguese",
+    language: "Vietnamese",
     level: "native",
   },
   {
@@ -13,7 +13,7 @@ export const languagesData: Language[] = [
     level: "advanced",
   },
   {
-    language: "Italian",
-    level: "intermediate",
+    language: "Chinese",
+    level: "basic",
   },
 ];
