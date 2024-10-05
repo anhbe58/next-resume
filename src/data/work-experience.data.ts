@@ -19,7 +19,7 @@ export interface Position {
 
 export const workExperienceData: Position[] = [
   {
-    title: "Intergation Engineer",
+    title: "AUTOSAR Software Developer",
     company: {
       name: "Bosch Global Software, Viet Nam (full time)",
       url: "https://www.bosch.com.vn/",
@@ -31,14 +31,16 @@ export const workExperienceData: Position[] = [
       {
         type: "paragraph",
         value:
-          "Worked on a software house, involved in internal and international projects, like accounting and flight management CRMs.",
+          "Integrate new features from AUTOSAR and test them in both virtual environments and on real hardware. Develop Application Software (ASWs) to validate new features from specific vendors and prepare them for client release. Serve as an expert in MEM and Ethernet stacks, providing training across teams.",
       },
       {
         type: "list",
         items: [
-          "Collaborate with stakeholders to gather requirements for new features;",
-          "Developed new functionalities for both server and client;",
-          "Designing database structures and GraphQL schemas and creating reusable components.",
+          "Work closely with the components team to resolve issues related to their dependencies.",
+          "Integrate new functionalities for components (RTE, BSWs, OS) and provide software to client.",
+          "Maintain the testing framework for both Linux and Windows versions, while developing new options to enhance the efficiency of the testing process.",
+          "Serve as the primary contact for addressing issues from teams and possess expertise in the MEM stack.",
+          "Conduct training sessions for the internal team and provide mentorship to new members."
         ],
       },
       {
@@ -48,15 +50,18 @@ export const workExperienceData: Position[] = [
           "C/C++",
           "Python",
           "Java",
-          "CAN",
-          "LIN",
-          "Ethernet",
+          "CAN stacks",
+          "MEM",
+          "SecOC",
+          "DIAG",
+          "Ethernet stacks",
+          "AUTOSAR workflow"
         ],
       },
     ],
   },
   {
-    title: "Intergation Engineer",
+    title: "AUTOSAR Software Developer",
     company: {
         name: "Bosch Global Software, Viet Nam (full time)",
         url: "https://www.bosch.com.vn/",
@@ -69,7 +74,7 @@ export const workExperienceData: Position[] = [
       {
         type: "paragraph",
         value:
-          "Helped GMDT (General Motors Delivery Team) to test and integrate BSW and ASW from Tier 1, connect all together and release to GM, which is a big customer of company.",
+          "Helped GMDT (General Motors Delivery Team) to test and integrate BSWs and ASWs from Tier 1, connect all together and release to GM, which is a big customer of company.",
       },
       {
         type: "list",
@@ -91,9 +96,12 @@ export const workExperienceData: Position[] = [
           "Python",
           "Circuit Debugging",
           "RTOS",
+          "MultiCore debug",
           "CAN",
           "SOMEIP-SD",
+          "SecOC",
           "Ethernet",
+          "MCAL porting",
         ],
       },
     ],
